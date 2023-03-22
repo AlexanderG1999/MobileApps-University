@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "235894255622",
+    "firebase_url": "https://exameniib-appmoviles-default-rtdb.firebaseio.com",
+    "project_id": "exameniib-appmoviles",
+    "storage_bucket": "exameniib-appmoviles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235894255622:android:527021142bbf74ed3dd387",
+        "android_client_info": {
+          "package_name": "com.example.exameniib_jagf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235894255622-3jms3o3uuabj476d0mg15h8c97psnpt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1KWDXh8cYZzOZ2fyeUMmSF9pQklAFNTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235894255622-3jms3o3uuabj476d0mg15h8c97psnpt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

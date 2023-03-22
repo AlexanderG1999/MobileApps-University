@@ -1,0 +1,181 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/login"
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent"
+		tools:ignore="MissingConstraints">
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<RelativeLayout
+				android:id="@+id/page_login_ek1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<View
+					android:id="@+id/_bg__login_ek2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__login_ek2_shape" />
+
+				<TextView
+					android:id="@+id/welcome_back__"
+					android:layout_width="197dp"
+					android:layout_height="45dp"
+					android:layout_marginLeft="120dp"
+					android:layout_marginTop="162dp"
+					android:text="@string/welcome_back___string"
+					android:textColor="@color/welcome_back___color"
+					android:textSize="24sp"
+					android:textStyle="bold|italic" />
+
+				<ImageView
+					android:id="@+id/left_1"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginStart="17dp"
+					android:layout_marginTop="30dp"
+					android:contentDescription="left_1"
+					android:src="@drawable/left_1" />
+
+				<ImageView
+					android:id="@+id/waving_hand"
+					android:layout_width="64dp"
+					android:layout_height="64dp"
+					android:layout_marginStart="180dp"
+					android:layout_marginTop="213dp"
+					android:contentDescription="waving_hand"
+					android:src="@drawable/waving_hand" />
+
+
+				<RelativeLayout
+					android:id="@+id/text_email"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="67dp"
+					android:layout_marginTop="324dp">
+
+					<View
+						android:id="@+id/rectangle_2"
+						android:layout_width="252dp"
+						android:layout_height="62dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:alpha="0.15000000596046"
+						android:background="@drawable/rectangle_2_shape" />
+
+					<EditText
+						android:id="@+id/txt_email_l"
+						android:layout_width="180dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="20dp"
+						android:layout_marginTop="5dp"
+						android:text="@string/email_string"
+						android:textColor="@color/welcome_back___color"
+						android:textSize="12sp"
+						android:textStyle="bold|italic" />
+
+					<ImageView
+						android:id="@+id/email_1"
+						android:layout_width="32dp"
+						android:layout_height="32dp"
+						android:layout_marginStart="205dp"
+						android:layout_marginTop="14dp"
+						android:contentDescription="email_1"
+						android:src="@drawable/email_1" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/text_pwd"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="67dp"
+					android:layout_marginTop="424dp">
+
+					<EditText
+						android:id="@+id/txt_password_l"
+						android:layout_width="170dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="20dp"
+						android:layout_marginTop="5dp"
+						android:text="@string/password_string"
+						android:textColor="@color/welcome_back___color"
+						android:textSize="12sp"
+						android:textStyle="bold|italic" />
+
+					<View
+						android:id="@+id/rectangle_3"
+						android:layout_width="252dp"
+						android:layout_height="62dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:alpha="0.15000000596046"
+						android:background="@drawable/rectangle_3_shape" />
+
+					<ImageView
+						android:id="@+id/password_1"
+						android:layout_width="40dp"
+						android:layout_height="40dp"
+						android:layout_marginStart="197dp"
+						android:layout_marginTop="10dp"
+						android:contentDescription="password_1"
+						android:src="@drawable/password_1" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/btn_ingreso"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="104dp"
+					android:layout_marginTop="597dp">
+
+					<View
+						android:id="@+id/rectangle_4"
+						android:layout_width="182dp"
+						android:layout_height="62dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:alpha="0.80000001192093"
+						android:background="@drawable/rectangle_4_shape" />
+
+					<TextView
+						android:id="@+id/login_ek3"
+						android:layout_width="74dp"
+						android:layout_height="37dp"
+						android:layout_marginLeft="65dp"
+						android:layout_marginTop="18dp"
+						android:text="@string/login_ek3_string"
+						android:textColor="@color/_bg__login_ek2_color"
+						android:textSize="20sp"
+						android:textStyle="bold|italic" />
+
+				</RelativeLayout>
+
+				<TextView
+					android:id="@+id/forgot_password_"
+					android:layout_width="120.5dp"
+					android:layout_height="24.5dp"
+					android:layout_marginLeft="141dp"
+					android:layout_marginTop="555dp"
+					android:text="@string/forgot_password__string"
+					android:textColor="@color/welcome_back___color"
+					android:textSize="13sp"
+					android:textStyle="bold|italic" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

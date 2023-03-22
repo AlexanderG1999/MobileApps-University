@@ -1,0 +1,159 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/perfil" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<ImageView android:id="@+id/_vince_veras_ajiqzdaud7a_unsplash_1"
+				android:src="@drawable/_vince_veras_ajiqzdaud7a_unsplash_1"
+				android:contentDescription="_vince_veras_ajiqzdaud7a_unsplash_1"
+				 android:layout_marginStart="39dp"
+				android:layout_marginTop="89dp"
+				android:layout_width="281.91dp"
+				android:layout_height="300dp" />
+
+			<ImageView android:id="@+id/left_6"
+				android:src="@drawable/left_6"
+				android:contentDescription="left_6"
+				 android:layout_marginStart="17dp"
+				android:layout_marginTop="30dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+			<View   android:id="@+id/rectangle_20"
+				android:background="@drawable/rectangle_20_shape"
+				 android:alpha="0.15000000596046"
+				 android:layout_marginStart="37dp"
+				android:layout_marginTop="456dp"
+				android:layout_width="302dp"
+				android:layout_height="302dp" />
+
+			<View   android:id="@+id/line_2"
+				android:background="@drawable/line_2_shape"
+				 android:layout_marginStart="37dp"
+				android:layout_marginTop="606dp"
+				android:layout_width="301dp"
+				android:layout_height="1dp" />
+
+			<View   android:id="@+id/line_3"
+				android:background="@drawable/line_3_shape"
+				 android:layout_marginStart="39dp"
+				android:layout_marginTop="683dp"
+				android:layout_width="301dp"
+				android:layout_height="1dp" />
+
+
+			<RelativeLayout android:id="@+id/btn_salir"
+				android:layout_marginTop="20dp"
+				android:layout_marginStart="267dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_21"
+					android:background="@drawable/rectangle_21_shape"
+					 android:alpha="0.80000001192093"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="80dp"
+					android:layout_height="60dp" />
+
+				<TextView android:id="@+id/exit"
+					android:textStyle="bold|italic"
+					android:textSize="20sp"
+					android:textColor="@color/exit_color"
+					android:layout_marginLeft="25dp"
+					android:layout_marginTop="17dp"
+					android:layout_width="58dp"
+					android:layout_height="37dp"
+					android:text="@string/exit_string"
+					 />
+
+			</RelativeLayout>
+
+			<TextView android:id="@+id/person_name"
+				android:textStyle="bold|italic"
+				android:textSize="24sp"
+				android:textColor="@color/rectangle_20_color"
+				android:layout_marginLeft="112dp"
+				android:layout_marginTop="414dp"
+				android:layout_width="191dp"
+				android:layout_height="45dp"
+				android:text="@string/person_name_string"
+				 />
+
+			<View   android:id="@+id/line_1"
+				android:background="@drawable/line_1_shape"
+				 android:layout_marginStart="36dp"
+				android:layout_marginTop="535dp"
+				android:layout_width="301dp"
+				android:layout_height="1dp" />
+
+			<TextView android:id="@+id/my_goals"
+				android:textStyle="bold|italic"
+				android:textSize="20sp"
+				android:textColor="@color/rectangle_20_color"
+				android:layout_marginLeft="139dp"
+				android:layout_marginTop="486dp"
+				android:layout_width="107dp"
+				android:layout_height="37dp"
+				android:text="@string/my_goals_string"
+				 />
+
+			<TextView android:id="@+id/change_diet"
+				android:textStyle="bold|italic"
+				android:textSize="20sp"
+				android:textColor="@color/rectangle_20_color"
+				android:layout_marginLeft="126dp"
+				android:layout_marginTop="559dp"
+				android:layout_width="132dp"
+				android:layout_height="37dp"
+				android:text="@string/change_diet_string"
+				 />
+
+			<TextView android:id="@+id/recipe_book"
+				android:textStyle="bold|italic"
+				android:textSize="20sp"
+				android:textColor="@color/rectangle_20_color"
+				android:layout_marginLeft="132dp"
+				android:layout_marginTop="633dp"
+				android:layout_width="135dp"
+				android:layout_height="37dp"
+				android:text="@string/recipe_book_string"
+				 />
+
+			<ImageView android:id="@+id/whatsapp"
+				android:src="@drawable/whatsapp"
+				android:contentDescription="whatsapp"
+				 android:layout_marginStart="170dp"
+				android:layout_marginTop="696dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+			<ImageView android:id="@+id/facebook"
+				android:src="@drawable/facebook"
+				android:contentDescription="facebook"
+				 android:layout_marginStart="86dp"
+				android:layout_marginTop="696dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+			<ImageView android:id="@+id/instagram"
+				android:src="@drawable/instagram"
+				android:contentDescription="instagram"
+				 android:layout_marginStart="252dp"
+				android:layout_marginTop="696dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

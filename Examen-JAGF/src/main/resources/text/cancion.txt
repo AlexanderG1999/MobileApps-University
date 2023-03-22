@@ -1,0 +1,6 @@
+1,Tití Me Preguntó,Bad Bunny,9.5,2020-12-02
+2,Animals,Maroon 5,9.5,2014-11-10
+3,Natural,Imagine Dragons,10.0,2018-11-20
+4,Counting Stars,One Republic,10.0,2013-06-01
+5,RUMBATÓN2,DD,4.5,2010-01-01
+6,X ÚLTIMA VEZ,Daddy Yankee,9.5,2022-01-01

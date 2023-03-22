@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hola_mundo">Hola Mundo bienvenido!!! LAND-ES</string>
+    <color name="text_color">#FF5722</color>
+    <color name="bg_color">#E4AD08</color>
+</resources>

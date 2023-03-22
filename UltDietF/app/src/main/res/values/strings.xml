@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- login strings -->
+
+	<string name="app_name">UltDIet</string>
+	<string name="welcome_back___string">Welcome Back!!</string>
+	<string name="email_string">email</string>
+	<string name="password_string">password</string>
+	<string name="login_ek3_string">Login</string>
+	<string name="forgot_password__string"><u>Forgot password?</u></string>
+	<string name="sign_in_string">Sign in</string>
+	<string name="live_healthy_and_great__string">Live Healthy and Great!</string>
+	<string name="start_string">start</string>
+	<string name="or_string">OR</string>
+	<string name="what_is_your_goal__string">What is your goal?</string>
+	<string name="stay_healthy_string">Stay Healthy</string>
+	<string name="lose_weight_string">Lose Weight</string>
+	<string name="gain_weight_string">Gain Weight</string>
+	<string name="siguiente_string">Siguiente</string>
+	<string name="what_is_your_height_string">What is your height</string>
+	<string name="what_is_your_weight_string">What is your weight</string>
+	<string name="what_is_your_target_weight_string">What is your target weight</string>
+	<string name="_170_string">170</string>
+	<string name="_70_string">70</string>
+	<string name="_65_string">65</string>
+	<string name="have_a_good_day__string">Have a good Day!</string>
+	<string name="my_meals_string">My Meals</string>
+	<string name="breakfast_string">breakfast</string>
+	<string name="dinner_string">Dinner</string>
+	<string name="all_ready___string">ALL READY!!</string>
+	<string name="your_email_string">your email</string>
+	<string name="your_name_string">your name</string>
+	<string name="your_password_string">your  password</string>
+	<string name="repeat_password_string">repeat password</string>
+	<string name="sign_up_string">Sign up</string>
+	<string name="choose_yout_diet_string">Choose yout diet</string>
+	<string name="option_1_string">Option 1</string>
+	<string name="option_3_string">Option 3</string>
+	<string name="option_2_string">Option 2</string>
+	<string name="skip_string">Skip</string>
+	<string name="choose_string">Choose</string>
+	<string name="exit_string">exit</string>
+	<string name="person_name_string">PERSON NAME</string>
+	<string name="my_goals_string">My Goals</string>
+	<string name="change_diet_string">Change Diet</string>
+	<string name="recipe_book_string">Recipe Book</string>
+	<string name="my_target_weight_string">My Target weight</string>
+	<string name="my_target_weight_ek1_string">My Target weight</string>
+	<string name="_65_kg_string">65 KG</string>
+	<string name="save_string">Save</string>
+</resources>

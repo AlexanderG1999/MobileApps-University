@@ -1,0 +1,189 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/alternativas_dietas" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<TextView android:id="@+id/choose_yout_diet"
+				android:fontFamily="Roboto"
+				android:textStyle="bold|italic"
+				android:textSize="24sp"
+				android:textColor="@color/choose_yout_diet_color"
+				android:layout_marginLeft="96dp"
+				android:layout_marginTop="118dp"
+				android:layout_width="206dp"
+				android:layout_height="45dp"
+				android:text="@string/choose_yout_diet_string"
+				 />
+
+			<View   android:id="@+id/btn_diet1"
+				android:background="@drawable/rectangle_5_shape"
+				 android:alpha="0.30000001192093"
+				 android:layout_marginStart="55dp"
+				android:layout_marginTop="292dp"
+				android:layout_width="252dp"
+				android:layout_height="82dp" />
+
+			<View   android:id="@+id/btn_diet2"
+				android:background="@drawable/rectangle_6_shape"
+				 android:alpha="0.15000000596046"
+				 android:layout_marginStart="57dp"
+				android:layout_marginTop="402dp"
+				android:layout_width="252dp"
+				android:layout_height="82dp" />
+
+			<View   android:id="@+id/btn_diet3"
+				android:background="@drawable/rectangle_7_shape"
+				 android:alpha="0.15000000596046"
+				 android:layout_marginStart="55dp"
+				android:layout_marginTop="512dp"
+				android:layout_width="252dp"
+				android:layout_height="82dp" />
+
+			<TextView android:id="@+id/option_1"
+				android:fontFamily="Roboto"
+				android:textStyle="bold|italic"
+				android:textSize="15sp"
+				android:textColor="@color/choose_yout_diet_color"
+				android:layout_marginLeft="148dp"
+				android:layout_marginTop="302dp"
+				android:layout_width="100dp"
+				android:layout_height="70dp"
+				android:text="@string/option_1_string"
+				 />
+
+			<TextView android:id="@+id/option_3"
+				android:fontFamily="Roboto"
+				android:textStyle="bold|italic"
+				android:textSize="15sp"
+				android:textColor="@color/choose_yout_diet_color"
+				android:layout_marginLeft="148dp"
+				android:layout_marginTop="515dp"
+				android:layout_width="100dp"
+				android:layout_height="70dp"
+				android:text="@string/option_3_string"
+				 />
+
+			<TextView android:id="@+id/option_2"
+				android:fontFamily="Roboto"
+				android:textStyle="bold|italic"
+				android:textSize="15sp"
+				android:textColor="@color/choose_yout_diet_color"
+				android:layout_marginLeft="148dp"
+				android:layout_marginTop="400dp"
+				android:layout_width="100dp"
+				android:layout_height="70dp"
+				android:text="@string/option_2_string"
+				 />
+
+			<ImageView android:id="@+id/left_5"
+				android:src="@drawable/left_5"
+				android:contentDescription="left_5"
+				 android:layout_marginStart="17dp"
+				android:layout_marginTop="30dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+			<ImageView android:id="@+id/diet"
+				android:src="@drawable/diet"
+				android:contentDescription="diet"
+				 android:layout_marginStart="145dp"
+				android:layout_marginTop="167dp"
+				android:layout_width="80dp"
+				android:layout_height="80dp" />
+
+
+			<RelativeLayout android:id="@+id/btn_skip1"
+				android:layout_marginTop="20dp"
+				android:layout_marginStart="246dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_19"
+					android:background="@drawable/rectangle_19_shape"
+					 android:alpha="0.80000001192093"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="80dp"
+					android:layout_height="60dp" />
+
+				<TextView android:id="@+id/skip"
+					android:fontFamily="Roboto"
+					android:textStyle="bold|italic"
+					android:textSize="20sp"
+					android:textColor="@color/skip_color"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="19dp"
+					android:layout_width="64dp"
+					android:layout_height="37dp"
+					android:text="@string/skip_string"
+					 />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/btn_choose"
+				android:layout_marginTop="679dp"
+				android:layout_marginStart="93dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_18"
+					android:background="@drawable/rectangle_18_shape"
+					 android:alpha="0.80000001192093"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="180dp"
+					android:layout_height="60dp" />
+
+				<TextView android:id="@+id/choose"
+					android:fontFamily="Roboto"
+					android:textStyle="bold|italic"
+					android:textSize="24sp"
+					android:textColor="@color/skip_color"
+					android:layout_marginLeft="50dp"
+					android:layout_marginTop="16dp"
+					android:layout_width="109dp"
+					android:layout_height="45dp"
+					android:text="@string/choose_string"
+					 />
+
+			</RelativeLayout>
+
+			<ImageView android:id="@+id/salad"
+				android:src="@drawable/salad"
+				android:contentDescription="salad"
+				 android:layout_marginStart="76dp"
+				android:layout_marginTop="523dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+			<ImageView android:id="@+id/meat"
+				android:src="@drawable/meat"
+				android:contentDescription="meat"
+				 android:layout_marginStart="77dp"
+				android:layout_marginTop="308dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+			<ImageView android:id="@+id/fish"
+				android:src="@drawable/fish"
+				android:contentDescription="fish"
+				 android:layout_marginStart="77dp"
+				android:layout_marginTop="422dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

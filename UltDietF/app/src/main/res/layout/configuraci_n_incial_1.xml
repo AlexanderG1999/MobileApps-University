@@ -1,0 +1,182 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/configuraci_n_incial_1" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<TextView android:id="@+id/what_is_your_goal_"
+				android:textStyle="bold|italic"
+				android:textSize="24sp"
+				android:textColor="@color/what_is_your_goal__color"
+				android:layout_marginLeft="96dp"
+				android:layout_marginTop="118dp"
+				android:layout_width="223dp"
+				android:layout_height="45dp"
+				android:text="@string/what_is_your_goal__string"
+				 />
+
+			<ImageView android:id="@+id/left_2"
+				android:src="@drawable/left_2"
+				android:contentDescription="left_2"
+				 android:layout_marginStart="17dp"
+				android:layout_marginTop="30dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+			<ImageView android:id="@+id/award"
+				android:src="@drawable/award"
+				android:contentDescription="award"
+				 android:layout_marginStart="148dp"
+				android:layout_marginTop="176dp"
+				android:layout_width="64dp"
+				android:layout_height="64dp" />
+
+
+			<RelativeLayout android:id="@+id/btn_stay_g"
+				android:layout_marginTop="512dp"
+				android:layout_marginStart="55dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_7"
+					android:background="@drawable/rectangle_7_shape"
+					 android:alpha="0.15000000596046"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="252dp"
+					android:layout_height="82dp" />
+
+				<TextView android:id="@+id/stay_healthy"
+					android:textStyle="bold|italic"
+					android:textSize="20sp"
+					android:textColor="@color/what_is_your_goal__color"
+					android:layout_marginLeft="93dp"
+					android:layout_marginTop="28dp"
+					android:layout_width="136dp"
+					android:layout_height="37dp"
+					android:text="@string/stay_healthy_string"
+					 />
+
+				<ImageView android:id="@+id/healthy"
+					android:src="@drawable/healthy"
+					android:contentDescription="healthy"
+					 android:layout_marginStart="21dp"
+					android:layout_marginTop="20dp"
+					android:layout_width="40dp"
+					android:layout_height="40dp" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/btn_lose_w"
+				android:layout_marginTop="292dp"
+				android:layout_marginStart="55dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_5"
+					android:background="@drawable/rectangle_5_shape"
+					 android:alpha="0.30000001192093"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="252dp"
+					android:layout_height="82dp" />
+
+				<TextView android:id="@+id/lose_weight"
+					android:textStyle="bold|italic"
+					android:textSize="20sp"
+					android:textColor="@color/what_is_your_goal__color"
+					android:layout_marginLeft="93dp"
+					android:layout_marginTop="32dp"
+					android:layout_width="133dp"
+					android:layout_height="37dp"
+					android:text="@string/lose_weight_string"
+					 />
+
+				<ImageView android:id="@+id/lose_weight_ek1"
+					android:src="@drawable/lose_weight_ek1"
+					android:contentDescription="lose_weight_ek1"
+					 android:layout_marginStart="21dp"
+					android:layout_marginTop="20dp"
+					android:layout_width="40dp"
+					android:layout_height="40dp" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/btn_gain_w"
+				android:layout_marginTop="402dp"
+				android:layout_marginStart="57dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_6"
+					android:background="@drawable/rectangle_6_shape"
+					 android:alpha="0.15000000596046"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="252dp"
+					android:layout_height="82dp" />
+
+				<TextView android:id="@+id/gain_weight"
+					android:textStyle="bold|italic"
+					android:textSize="20sp"
+					android:textColor="@color/what_is_your_goal__color"
+					android:layout_marginLeft="91dp"
+					android:layout_marginTop="28dp"
+					android:layout_width="131dp"
+					android:layout_height="37dp"
+					android:text="@string/gain_weight_string"
+					 />
+
+				<ImageView android:id="@+id/barbell"
+					android:src="@drawable/barbell"
+					android:contentDescription="barbell"
+					 android:layout_marginStart="19dp"
+					android:layout_marginTop="23dp"
+					android:layout_width="40dp"
+					android:layout_height="40dp" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/btn_siguiente1"
+				android:layout_marginTop="651dp"
+				android:layout_marginStart="90dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_8"
+					android:background="@drawable/rectangle_8_shape"
+					 android:alpha="0.80000001192093"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="180dp"
+					android:layout_height="60dp" />
+
+				<TextView android:id="@+id/siguiente"
+					android:textStyle="bold|italic"
+					android:textSize="20sp"
+					android:textColor="@color/siguiente_color"
+					android:layout_marginLeft="50dp"
+					android:layout_marginTop="18dp"
+					android:layout_width="109dp"
+					android:layout_height="37dp"
+					android:text="@string/siguiente_string"
+					 />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

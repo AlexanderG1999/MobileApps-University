@@ -1,0 +1,128 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/my_goals" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<TextView android:id="@+id/my_target_weight"
+				android:textStyle="bold|italic"
+				android:textSize="24sp"
+				android:textColor="@color/my_target_weight_color"
+				android:layout_marginLeft="74dp"
+				android:layout_marginTop="112dp"
+				android:layout_width="211dp"
+				android:layout_height="45dp"
+				android:text="@string/my_target_weight_string"
+				 />
+
+			<TextView android:id="@+id/my_target_weight_ek1"
+				android:textStyle="bold|italic"
+				android:textSize="24sp"
+				android:textColor="@color/my_target_weight_color"
+				android:layout_marginLeft="89dp"
+				android:layout_marginTop="316dp"
+				android:layout_width="211dp"
+				android:layout_height="45dp"
+				android:text="@string/my_target_weight_ek1_string"
+				 />
+
+			<View   android:id="@+id/rectangle_22"
+				android:background="@drawable/rectangle_22_shape"
+				 android:alpha="0.15000000596046"
+				 android:layout_marginStart="65dp"
+				android:layout_marginTop="188dp"
+				android:layout_width="252dp"
+				android:layout_height="82dp" />
+
+			<ImageView android:id="@+id/scale"
+				android:src="@drawable/scale"
+				android:contentDescription="scale"
+				 android:layout_marginStart="275dp"
+				android:layout_marginTop="106dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+			<TextView android:id="@+id/_65_kg"
+				android:textStyle="bold|italic"
+				android:textSize="24sp"
+				android:textColor="@color/my_target_weight_color"
+				android:layout_marginLeft="158dp"
+				android:layout_marginTop="214dp"
+				android:layout_width="93dp"
+				android:layout_height="45dp"
+				android:text="@string/_65_kg_string"
+				 />
+
+			<View   android:id="@+id/rectangle_5"
+				android:background="@drawable/rectangle_5_shape"
+				 android:alpha="0.30000001192093"
+				 android:layout_marginStart="65dp"
+				android:layout_marginTop="386dp"
+				android:layout_width="252dp"
+				android:layout_height="82dp" />
+
+			<TextView android:id="@+id/lose_weight"
+				android:textStyle="bold|italic"
+				android:textSize="20sp"
+				android:textColor="@color/my_target_weight_color"
+				android:layout_marginLeft="136dp"
+				android:layout_marginTop="415dp"
+				android:layout_width="133dp"
+				android:layout_height="37dp"
+				android:text="@string/lose_weight_string"
+				 />
+
+			<ImageView android:id="@+id/lose_weight_ek1"
+				android:src="@drawable/lose_weight_ek1"
+				android:contentDescription="lose_weight_ek1"
+				 android:layout_marginStart="87dp"
+				android:layout_marginTop="406dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+			<ImageView android:id="@+id/left_6"
+				android:src="@drawable/left_6"
+				android:contentDescription="left_6"
+				 android:layout_marginStart="271dp"
+				android:layout_marginTop="406dp"
+				android:layout_width="40dp"
+				android:layout_height="40dp" />
+
+
+			<RelativeLayout android:id="@+id/btn_save"
+				android:layout_marginTop="559dp"
+				android:layout_marginStart="95dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_23"
+					android:background="@drawable/rectangle_23_shape"
+					 android:alpha="0.80000001192093"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="180dp"
+					android:layout_height="80dp" />
+
+				<TextView android:id="@+id/save"
+					android:textStyle="bold|italic"
+					android:textSize="24sp"
+					android:textColor="@color/save_color"
+					android:layout_marginLeft="64dp"
+					android:layout_marginTop="26dp"
+					android:layout_width="81dp"
+					android:layout_height="45dp"
+					android:text="@string/save_string"
+					 />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

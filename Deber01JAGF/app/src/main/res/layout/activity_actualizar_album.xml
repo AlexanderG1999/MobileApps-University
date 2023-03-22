@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarAlbum">
+
+    <EditText
+        android:id="@+id/et_upd_idAlb"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <EditText
+        android:id="@+id/et_upd_nombAlb"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_idAlb"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_idAlb"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_idAlb" />
+
+    <EditText
+        android:id="@+id/et_upd_autorAlb"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Autor"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_nombAlb"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_nombAlb"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_nombAlb" />
+
+    <EditText
+        android:id="@+id/et_upd_fechaAlb"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="AAAA-MM-DD"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_autorAlb"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_autorAlb"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_autorAlb" />
+
+    <EditText
+        android:id="@+id/et_upd_estadoAlb"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Favorito (Si o No)"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_fechaAlb"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_fechaAlb"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_fechaAlb" />
+
+    <Button
+        android:id="@+id/btn_upd_Album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="ACTUALIZAR ÁLBUM"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_estadoAlb"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_estadoAlb"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_estadoAlb" />
+</androidx.constraintlayout.widget.ConstraintLayout>

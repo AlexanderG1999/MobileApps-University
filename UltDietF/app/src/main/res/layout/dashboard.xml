@@ -1,0 +1,132 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/dashboard" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_dashboard_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__dashboard_ek2"
+					android:background="@drawable/_bg__dashboard_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+
+				<ImageView android:id="@+id/image_1"
+					android:src="@drawable/image_1"
+					android:contentDescription="image_1"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="169dp"
+					android:layout_width="360dp"
+					android:layout_height="339dp" />
+
+				<ImageView android:id="@+id/btn_foto_perfil"
+					android:src="@drawable/_vince_veras_ajiqzdaud7a_unsplash_1"
+					android:contentDescription="vince_veras_ajiqzdaud7a_unsplash_1"
+					 android:layout_marginStart="17dp"
+					android:layout_marginTop="30dp"
+					android:layout_width="55.15dp"
+					android:layout_height="50dp" />
+
+				<TextView android:id="@+id/have_a_good_day_"
+					android:textStyle="bold|italic"
+					android:textSize="24sp"
+					android:textColor="@color/have_a_good_day__color"
+					android:layout_marginLeft="91dp"
+					android:layout_marginTop="106dp"
+					android:layout_width="211dp"
+					android:layout_height="45dp"
+					android:text="@string/have_a_good_day__string"
+					 />
+
+				<TextView android:id="@+id/my_meals"
+					android:textStyle="bold|italic"
+					android:textSize="24sp"
+					android:textColor="@color/have_a_good_day__color"
+					android:layout_marginLeft="131dp"
+					android:layout_marginTop="514dp"
+					android:layout_width="131dp"
+					android:layout_height="45dp"
+					android:text="@string/my_meals_string"
+					 />
+
+				<ImageView android:id="@+id/star"
+					android:src="@drawable/star"
+					android:contentDescription="star"
+					 android:layout_marginStart="284dp"
+					android:layout_marginTop="96dp"
+					android:layout_width="32dp"
+					android:layout_height="32dp" />
+
+				<View   android:id="@+id/rectangle_5"
+					android:background="@drawable/rectangle_5_shape"
+					 android:alpha="0.30000001192093"
+					 android:layout_marginStart="56dp"
+					android:layout_marginTop="568dp"
+					android:layout_width="252dp"
+					android:layout_height="82dp" />
+
+				<View   android:id="@+id/rectangle_6"
+					android:background="@drawable/rectangle_6_shape"
+					 android:alpha="0.15000000596046"
+					 android:layout_marginStart="58dp"
+					android:layout_marginTop="678dp"
+					android:layout_width="252dp"
+					android:layout_height="82dp" />
+
+				<TextView android:id="@+id/breakfast"
+					android:textStyle="bold|italic"
+					android:textSize="20sp"
+					android:textColor="@color/have_a_good_day__color"
+					android:layout_marginLeft="149dp"
+					android:layout_marginTop="600dp"
+					android:layout_width="109dp"
+					android:layout_height="37dp"
+					android:text="@string/breakfast_string"
+					 />
+
+				<TextView android:id="@+id/dinner"
+					android:textStyle="bold|italic"
+					android:textSize="20sp"
+					android:textColor="@color/have_a_good_day__color"
+					android:layout_marginLeft="162dp"
+					android:layout_marginTop="708dp"
+					android:layout_width="83dp"
+					android:layout_height="37dp"
+					android:text="@string/dinner_string"
+					 />
+
+				<ImageView android:id="@+id/breakfast_ek1"
+					android:src="@drawable/breakfast_ek1"
+					android:contentDescription="breakfast_ek1"
+					 android:layout_marginStart="95dp"
+					android:layout_marginTop="589dp"
+					android:layout_width="40dp"
+					android:layout_height="40dp" />
+
+				<ImageView android:id="@+id/meal"
+					android:src="@drawable/meal"
+					android:contentDescription="meal"
+					 android:layout_marginStart="95dp"
+					android:layout_marginTop="692dp"
+					android:layout_width="40dp"
+					android:layout_height="40dp" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

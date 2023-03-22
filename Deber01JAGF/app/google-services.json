@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "289397404389",
+    "project_id": "deberes-appmov",
+    "storage_bucket": "deberes-appmov.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289397404389:android:d3678112cb929554fb5a0c",
+        "android_client_info": {
+          "package_name": "com.example.deber01_jagf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289397404389-qmarlrjriaq7h960ekegn2cdpaeluvc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc9EUJerj9V2uPEKTpRdZdzwb2E_buBs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289397404389-qmarlrjriaq7h960ekegn2cdpaeluvc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
